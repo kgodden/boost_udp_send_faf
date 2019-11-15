@@ -1,4 +1,4 @@
-Fire-and-Forget sending of UDP datagrams from C++ while hiding the complexity of the boost::asio library.
+Fire-and-Forget (FaF) sending of UDP datagrams from C++ while hiding the complexity of the boost::asio library.
 
 Python has me spoiled, in Python simple things are typically very easy to do. In C++ things are sometimes different, the boost::asio libraries are very powerful networking libraries they can handle all sorts of networking scenarios, but when you want to do a simple thing, like just send a string via UDP things can seem over complicated.
 
