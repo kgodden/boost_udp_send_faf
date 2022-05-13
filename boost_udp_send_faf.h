@@ -74,7 +74,7 @@ public:
 		}
 
 		// make endpoint
-		remote_endpoint = boost::asio::ip::udp::endpoint(boost::asio::ip::make_address(ip_address.c_str()), port);
+		remote_endpoint = boost::asio::ip::udp::endpoint(boost::asio::ip::address::from_string(ip_address.c_str()), port);
 	}
 
 	// Send a string to the preconfigured endpoint
