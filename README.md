@@ -26,3 +26,5 @@ for (auto i = 0; i != 10; i++) {
 ```
 
 More info can be found [here](https://www.ridgesolutions.ie/index.php/2019/11/15/fire-and-forget-wrapper-for-sending-of-simple-udp-data-using-boostasio-libraries/)
+
+For an easier way to receive UDP datagrams using boost have a look at [boost_udp_receive_rar](https://github.com/kgodden/boost_udp_receive_rar)
